@@ -15,30 +15,6 @@
 // averagePair([],4) // false
 
 function averagePair(arr, givenAvg) {
-	// if (arr.length < 1) {
-	// 	console.log(false);
-	// 	return false;
-	// }
-	// if (!Number.isInteger(avg) && !Number.isInteger(avg - 0.5)) {
-	// 	console.log(false);
-	// 	return false;
-	// }
-	// if (index >= arr.length - 1) {
-	// 	console.log(false);
-	// 	return false;
-	// }
-	// let start = index || 0;
-
-	// for (let i = start + 1; i < arr.length; i++) {
-	// 	const element = arr[i];
-	// 	if ((arr[start] + element) / 2 === avg) {
-	// 		console.log(true);
-	// 		return true;
-	// 	}
-	// }
-
-	// start++;
-	// averagePair(arr, avg, start);
 	let start = 0;
 	let end = arr.length - 1;
 
