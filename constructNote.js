@@ -31,12 +31,9 @@ function constructNote(message, letters) {
 		if (availableLetters[letter] > 0) {
 			availableLetters[letter] -= 1;
 		} else {
-			console.log(false);
 			return false;
 		}
 	}
-
-	console.log(true);
 	return true;
 }
 
