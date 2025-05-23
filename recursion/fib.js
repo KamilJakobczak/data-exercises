@@ -18,8 +18,8 @@ function fib(number) {
 	// return fibArr[number - 1];
 
 	// recursive solution
-	if (number === 1) return 1;
-	if (number === 2) return 1;
+	if (number <= 2) return 1;
+
 	return fib(number - 1) + fib(number - 2);
 }
 
