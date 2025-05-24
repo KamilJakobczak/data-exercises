@@ -3,7 +3,6 @@
 function capitalizeFirst(arr) {
 	if (arr.length === 0) return [];
 	const capitalized = arr[0][0].toUpperCase() + arr[0].slice(1);
-
 	return [capitalized, ...capitalizeFirst(arr.slice(1))];
 }
 
