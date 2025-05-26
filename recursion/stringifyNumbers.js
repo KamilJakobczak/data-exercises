@@ -19,7 +19,6 @@ function stringifyNumbers(obj) {
 			stringifiedNumbersObj[key] = value;
 		}
 	}
-	console.log(stringifiedNumbersObj);
 	return stringifiedNumbersObj;
 }
 
